@@ -2,8 +2,11 @@
 name = "debugging-q4"
 version = "0.1.0"
 description = "CCHC Assessment Debugging Q4"
-authors = [{ name = "", email = "" }]
+authors = [{ name = "Matt Gusdorff", email = "mjgusdorff27@gmail.com" }]
 readme = "README.md"
-requires-python = "<=3.11"
+requires-python = ">=3.10,<=3.11"
 dependencies = [
+    "dash>=4.1.0",
+    "numpy>=1.12.1",
+    "pandas>=2.3.3",
 ]

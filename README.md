@@ -11,3 +11,11 @@ This repository contains a broken web app built with Dash. Please follow the tas
    2. Use a modern python package manager that respects `pyproject.toml` and `.python-version`, rather than `pip`.
    3. Setup virtual environment, start the app, and access the app.
 6. Commit and push all the changes, and provide a link to your own repo in your submission in the last.
+
+
+## Instructions 
+
+1. Clone this repo
+2. Ensure python (version 3.10 or 3.11) and uv are installed. Use "uv python pin 3.1x" if there incompatible versions present.
+3. Run "uv sync" to grab dependencies
+4. Run "uv run python main.py" to start the app and access in the browser at localhost:10030
